@@ -1,0 +1,28 @@
+{
+  // https://github.com/tsconfig/bases/blob/master/bases/recommended.json
+  "extends": "@tsconfig/recommended/tsconfig.json",
+
+  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    // baseUrl specifies a directory to resolve non-relative module names
+    // This is needed for the typeRoots to work properly
+    // https://github.com/DefinitelyTyped/DefinitelyTyped#adding-tests-to-a-new-package
+    "baseUrl": "types",
+
+    // "outDir" specifies the output directory
+    // By default, it will put the compiled ".js" and ".js.map" next to the respective ".ts" file,
+    // which will clutter the "src" directory
+    "outDir": "dist",
+
+    // "newLine" specifies the end of line sequence
+    // By default, it is "crlf" on Windows; we want to always use "lf" in order to match the code
+    // base and reduce the file size of the output
+    "newLine": "lf",
+
+    // typeRoots specifies the list of folders to include type definitions from
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types",
+    ],
+  },
+}

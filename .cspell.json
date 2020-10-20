@@ -1,0 +1,25 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "dictionaries": [
+        "en_US"
+    ],
+    "words": [
+        "brane",
+        "clonedeep",
+        "gerrand",
+        "gofmt",
+        "lodash",
+        "lodash clonedeep",
+        "luafmt",
+        "luaparse",
+        "plusplus",
+        "posix",
+        "roblox",
+        "rustfmt",
+        "zamfmt",
+        "zamiell",
+        "zero",
+        "zero brane"
+    ]
+}

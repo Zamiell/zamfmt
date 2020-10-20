@@ -1,0 +1,51 @@
+{
+  "name": "zamfmt",
+  "version": "0.0.1",
+  "description": "A Lua formatter",
+  "keywords": [
+    "format",
+    "formatter",
+    "pretty",
+    "print",
+    "prettyprint",
+    "prettier",
+    "luafmt"
+  ],
+  "homepage": "https://github.com/Zamiell/zamfmt#readme",
+  "bugs": {
+    "url": "https://github.com/Zamiell/zamfmt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/zamfmt.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Zamiell",
+  "main": "src/index.js",
+  "bin": {
+    "zamfmt": "dist/index.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^6.1.0",
+    "get-stdin": "^8.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "luaparse": "^0.3.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/lodash.clonedeep": "^4.5.6",
+    "@types/node": "^14.11.2",
+    "@types/yargs": "^15.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-typescript": "^10.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.0.3"
+  }
+}
